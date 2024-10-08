@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #1c1a1a;
+}
+img{
+    width: 500px;
+    height: 200px;
+}
+#name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+#position{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+#editButton{
+    width: 90px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-left: 40px;
+}
+.hidden {
+    display: none;
+}
+
+#editForm {
+    background-color: aliceblue;
+    margin-top: 20px; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 5px solid #d21616;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+button:hover{
+    background-color: #f48585;
+}
